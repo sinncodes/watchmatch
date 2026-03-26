@@ -13,5 +13,6 @@ class Show(models.Model):
      # pg - make this into a choices via pg rating stuff
     release_date = models.DateField()
  
- #class Interaction(models.Model):
+class Interaction(models.Model):
  #   interactions = m
+    whenswiped = models.DateField()
